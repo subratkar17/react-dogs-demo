@@ -1,0 +1,37 @@
+{
+  "name": "react-dogs-demo",
+  "version": "1.0.0",
+  "description": "sample demo app in react",
+  "main": "src/js/index.js",
+  "scripts": {
+    "start": "webpack -w --mode development",
+    "prod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasiriveni/react-dogs-demo.git"
+  },
+  "keywords": [
+    "react",
+    "demos",
+    "dogs"
+  ],
+  "author": "Srinivas Kasiriveni <kasiriveni@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kasiriveni/react-dogs-demo/issues"
+  },
+  "homepage": "https://github.com/kasiriveni/react-dogs-demo#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10"
+  }
+}
