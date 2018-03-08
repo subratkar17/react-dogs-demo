@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import Timer from './timer';
 import TodoApp from './todo'
 import TextareaComponent from './textarea';
+import Element from './formatname';
+
+
 
 
 class Person extends Component {
@@ -16,6 +19,7 @@ class Person extends Component {
             <Timer name="sk"/>
             <TodoApp/>
             <TextareaComponent/>
+            <Element name="jyothi"/>
         </div>
     )
     }

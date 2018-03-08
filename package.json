@@ -5,7 +5,8 @@
   "main": "src/js/index.js",
   "scripts": {
     "start": "webpack -w --mode development",
-    "prod": "webpack --mode production"
+    "prod": "webpack --mode production",
+    "prettier": "prettier --single-quote --write 'src/**/*.js' webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "prettier": "1.11.1",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.10"
   }
