@@ -7,7 +7,7 @@
     "start": "webpack -w --mode development",
     "prod": "webpack --mode production",
     "prettier": "prettier --single-quote --write 'src/**/*.js' webpack.config.js",
-    "linter": "eslint src/**/*.js"
+    "linter": "eslint --fix src/**/*.js"
   },
   "repository": {
     "type": "git",
