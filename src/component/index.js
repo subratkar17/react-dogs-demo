@@ -4,6 +4,9 @@ import TodoApp from './todo';
 import TextareaComponent from './textarea';
 import Element from './formatname';
 import Welcome from './welcome'
+import Timezone from './timezone'
+import Comment from '../component/comment/comment';
+import {COMMENT} from './const'
 
 
 class Person extends Component {
@@ -20,6 +23,13 @@ class Person extends Component {
         <TextareaComponent />
         <Element name="jyothi" />
         <Welcome />
+        <Timezone/>
+        <Comment
+        date={COMMENT.date}
+        text={COMMENT.text}
+        author={COMMENT.author}
+      />
+    
       </div>
     );
   }
