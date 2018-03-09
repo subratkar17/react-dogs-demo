@@ -3,6 +3,7 @@ import Timer from './timer';
 import TodoApp from './todo';
 import TextareaComponent from './textarea';
 import Element from './formatname';
+import Welcome from './welcome'
 
 
 class Person extends Component {
@@ -18,6 +19,7 @@ class Person extends Component {
         <TodoApp />
         <TextareaComponent />
         <Element name="jyothi" />
+        <Welcome />
       </div>
     );
   }
