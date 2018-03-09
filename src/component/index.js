@@ -7,6 +7,8 @@ import Welcome from './welcome'
 import Timezone from './timezone'
 import Comment from '../component/comment/comment';
 import {COMMENT} from './const'
+import Lifecycle from './lifecycle'
+import App from './error/error';
 
 
 class Person extends Component {
@@ -16,7 +18,7 @@ class Person extends Component {
   }
   render() {
     return (
-      <div>
+      <React.Fragment>
         <h1>welcome ! {this.props.name}</h1>
         <Timer name="sk" />
         <TodoApp />
@@ -29,8 +31,9 @@ class Person extends Component {
         text={COMMENT.text}
         author={COMMENT.author}
       />
-    
-      </div>
+      <Lifecycle/>
+      <App/>
+       </React.Fragment>
     );
   }
 }
