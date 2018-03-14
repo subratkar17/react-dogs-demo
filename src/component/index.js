@@ -9,6 +9,9 @@ import Comment from '../component/comment/comment';
 import {COMMENT} from './const'
 import Lifecycle from './lifecycle'
 import App from './error/error';
+import Card from '../component/codepen/card';
+import {Chrono} from '../component/codepen/chrono';
+import Log from './pure';
 
 
 class Person extends Component {
@@ -33,6 +36,9 @@ class Person extends Component {
       />
       <Lifecycle/>
       <App/>
+      <Card />
+      <Chrono />
+      <Log />
        </React.Fragment>
     );
   }
